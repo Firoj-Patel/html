@@ -9,7 +9,6 @@ import os
 
 app = Flask(__name__)
 
-# Mock Data (Replace with Database)
 api_configs = {}
 dependency_graph = nx.DiGraph()
 api_hashes = {}
