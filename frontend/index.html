@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Monitor Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>API Monitor Demo</h1>
+    <h2>Add API</h2>
+    <form id="addApiForm">
+        <input type="text" id="apiUrl" placeholder="API URL">
+        <input type="number" id="interval" placeholder="Interval (seconds)">
+        <button type="submit">Add API</button>
+    </form>
+    <h2>API List</h2>
+    <ul id="apiList"></ul>
+    <h2>Versioned Data</h2>
+    <form id="versionForm">
+        <input type="text" id="versionApiUrl" placeholder="API URL">
+        <input type="text" id="version" placeholder="Version">
+        <button type="submit">Get Data</button>
+    </form>
+    <pre id="versionData"></pre>
+    <script src="script.js"></script>
+</body>
+</html>
